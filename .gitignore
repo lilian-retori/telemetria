@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+coleta_curitiba/
+data/
+outputs/
+resultados_antigos/
+*.log
+*.xz
+envio_*.json
+inventario_scripts.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados e resultados grandes/sensíveis
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store

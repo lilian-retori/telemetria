@@ -1,0 +1,6 @@
+pandas>=2.1
+numpy>=1.26
+folium>=0.16
+pytest>=8.0
+ruff>=0.6
+black>=24.0
